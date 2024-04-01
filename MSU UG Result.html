@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="icon" href="http://www.ugresult2023n.msuexamresult.in/images/logo.png" type="image/x-icon">
+<link type="text/css" href="./MSU UG Result_files/admin-css.css" rel="stylesheet">
+<title>MSU Hall Ticket 2024</title>
+<style>
+  .loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #aprilFoolMessage {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+  </style>
+</head>
+<body onload="document.form1.name_candidate.focus();" class="reg-main-page">
+<div style="width:100%; height:150px;background-image:url(images/mtwu_bg.png);">
+<table style="width:100%; height:70px;" bgcolor="#FFFFFF">
+<tbody><tr><td align="left" valign="middle"><img src="./MSU UG Result_files/header.png" width="100%" height="125"></td></tr>
+</tbody></table>
+<table width="100%" align="right" bgcolor="#FFFFFF">
+<tbody><tr align="right"><td style="width:225px;">&nbsp;</td>
+<td align="center">
+<font color="#FF0000" size="+1">
+<marquee behavior="scroll" scrollamount="4" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+<font color="#FF0000"></font>
+</marquee>
+</font>
+</td>
+<td align="right" style="width:75px;">
+<a href="http://www.result1.msuexamresult.in/"><input name="home" id="home" type="button" value="Home" style="width:75px; height:20px; background:#2c7bc9; font:16px Arial, Helvetica, sans-serif; color:#fff !important; cursor:pointer; border:none;border-radius:5px;opacity:1;"></a>
+</td>
+<td align="right" style="width:75px;">
+<a href="http://www.ugresult2023n.msuexamresult.in/index.php"><input name="home" id="home" type="button" value="Reset" style="width:75px; height:20px; background:#2c7bc9; font:16px Arial, Helvetica, sans-serif; color:#fff !important; cursor:pointer; border:none;border-radius:5px;opacity:1;"></a>
+</td></tr></tbody></table>
+</div><div></div><script type="text/javascript"> 
+
+function stopRKey(evt) { 
+  var evt = (evt) ? evt : ((event) ? event : null); 
+  var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null); 
+  if ((evt.keyCode == 13) && (node.type=="text"))  {return false;} 
+} 
+
+document.onkeypress = stopRKey; 
+
+</script>
+
+ <script language="javascript">
+function isalphanumericonly(ob)
+{
+  var invalidChars = /[^A-Z^a-z^0-9]/gi
+  if(invalidChars.test(ob.value)) 
+  {
+            ob.value = ob.value.replace(invalidChars,"");
+  }
+}
+function getnamesmall(ob)
+{
+	var str=ob.value;
+	ob.value=str.toLowerCase();
+}
+function trim(strString)
+{
+   var strCopy = new String(strString)
+   strCopy = strCopy.replace(/^\s+/,"")
+   strCopy = strCopy.replace(/\s+$/, "")
+   return strCopy.toString()
+}
+function isEmail(Object,msg)
+ {
+	 var emailpat = /^[A-Za-z0-9\-_\.]+@+[A-Za-z0-9\-\.]+\.+[A-Za-z]{2,10}$/
+	 var msg="Invalid Email ID Format, Please Enter Valid Email ID";
+	//alert('fn call');
+   var strInput   = new String(Object.value)
+
+   if (trim(strInput) == "")
+
+     {
+       return true
+     }
+   var objregExp  = emailpat
+   if(objregExp.test(strInput))
+     {
+       return true
+     }
+	 Object.focus()
+     alert(msg)
+     
+     return false
+ }
+ function isMail()
+ {
+	 	//alert("fn call isMail");
+	 var emailpat = /^[A-Za-z0-9\-_\.]+@+[A-Za-z0-9\-\.]+\.+[A-Za-z]{2,10}$/
+	 var msg="Invalid Email ID Format, Please Enter Valid Email ID";
+	 //alert('fn call');
+ 	 var strInput   = new String(document.getElementById("email").value)
+  	 if (trim(strInput) == "")
+
+     {
+       return true
+     }
+
+     var objregExp  = emailpat
+
+     if(objregExp.test(strInput))
+
+     {
+       getuniqueemail();
+       return true
+		
+     }
+	alert("Invalid Email ID Format, Please Enter Valid Email ID");
+	document.form1.email.value="";
+	document.form1.email.focus();
+ }
+</script>
+<script type="text/javascript">
+function isnumberonly(ob)
+{
+  var invalidChars = /[^0-9]/gi
+  if(invalidChars.test(ob.value)) 
+  {
+            ob.value = ob.value.replace(invalidChars,"");
+  }
+}
+</script>
+ <script language="javascript">
+ function validateform()
+{
+	//alert("fn call validateform");
+	var RegisterNo=document.forms["form1"]["RegisterNo"].value;
+	if(RegisterNo==null || RegisterNo=="")
+	{
+		alert ("Please Enter Registration No.");
+		document.form1.RegisterNo.focus();
+		return false;
+	}
+
+	tosubmitform();
+
+}
+ </script>  
+ 
+<script language="javascript">
+function tosubmitform()
+{
+			document.getElementById('form1').action='print_result.php';
+			document.getElementById('form1').submit();
+}
+</script>  
+
+ <script type="text/javascript">
+function getuniqueregno()
+{
+	//alert('fn call getuniqueregno');
+		var RegisterNo=document.forms["form1"]["RegisterNo"].value;
+		if(RegisterNo==null || RegisterNo=="")
+		{
+		alert ("Please Enter Registration No.");
+			document.form1.RegisterNo.focus();
+			return false;
+		}
+		
+    var xmlHttpReq = false;
+    // Mozilla/Safari
+    if (window.XMLHttpRequest) 
+	{
+        xmlHttpReq = new XMLHttpRequest();
+    }
+    // IE
+    else if (window.ActiveXObject) 
+	{
+        xmlHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+	//alert("username_check.php?phone=" + phone);
+	xmlHttpReq.open('GET', "unique_check.php?RegisterNo=" + RegisterNo, true);
+	xmlHttpReq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+    xmlHttpReq.onreadystatechange = function() 
+	{
+	
+        if (xmlHttpReq.readyState == 4) 
+		{
+            loaduniqueregno(xmlHttpReq.responseText);
+        }
+    }
+    xmlHttpReq.send();
+
+}
+function loaduniqueregno(data)
+{
+	  //alert(data);
+	  var result= data ;
+	  //alert(result);
+	  if(result == 1)
+		{
+			/*
+			document.getElementById('proceedbutton').style.opacity='1';
+			document.getElementById('proceedbutton').disabled='';
+			*/
+			document.getElementById('form1').action='print_result.php';
+			document.getElementById('form1').submit();
+		}
+	  else
+		{
+		//alert("else part");
+		alert("Entered Registration No. not Found");
+		document.form1.RegisterNo.value = "";
+		document.form1.RegisterNo.focus();
+		/*
+			document.getElementById('proceedbutton').style.opacity='0.6';
+			document.getElementById('proceedbutton').disabled='disabled';
+		*/
+		}
+}
+</script>
+
+<style type="text/css">
+input.file
+		{
+ 		size:auto;
+		color:#0F6;
+		}
+</style>
+<link rel="icon" href="http://www.ugresult2023n.msuexamresult.in/images/tnou_logo.png" type="image/x-icon">
+<link type="text/css" href="./MSU UG Result_files/admin-css.css" rel="stylesheet">
+<script src="./MSU UG Result_files/jquery-1.6.1.min.js.download" type="text/javascript"> </script>
+<title>MSU</title>
+
+
+<br>
+
+<table align="center" bgcolor="#FFFFFF" style="width:600px;">
+<tbody><tr style=" height:30px;">
+<td style="height:25px;">
+
+<table style="background-color:#3A702E;height:30px; width:100%;">
+<tbody><tr>
+    <td align="left" style="width:49%">
+	<font style="font-size:12px;" color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;April - May Semester Exam Hall Ticket</font>
+    </td>
+    <td align="center" style="width:1%">
+	<font style="font-size:12px;" color="#FFFFFF">&nbsp;</font>
+    </td>
+    <td align="right" style="width:25%">
+<input name="reset" type="reset" style="width:60px; height:25px; background:#2c7bc9; font:14px Arial, Helvetica, sans-serif; color:#fff !important; cursor:pointer; border:none;border-radius:5px;" value="Reset" tabindex="3">
+    </td>
+  </tr>
+</tbody></table>
+
+
+</td>
+</tr>
+
+<tr>
+<td>
+<form enctype="multipart/form-data" action="http://www.ugresult2023n.msuexamresult.in/" method="post" name="form1" id="form1" onsubmit="return validateform()">
+<table align="center" style="width:700px;height:auto;">
+
+
+<tbody><tr><td align="center" valign="top">
+  
+  <table style="width:90%;" align="center">
+
+  <tbody><tr><td colspan="2" align="center">&nbsp;</td></tr>
+  <tr>
+  <td width="264" align="left"> <font size="-1" style="font-size:18px;"><b>Enter the Registration No.&nbsp;&nbsp;</b></font></td>
+  <td width="347" align="left"><input id="RegisterNo" name="RegisterNo" type="text" style="width:100%; font-size:12px; height:29px; border-radius:5px; border:ridge;" maxlength="25" tabindex="1" value="" onkeyup="isalphanumericonly(this);">
+  </td>
+  </tr>
+    
+  <tr><td colspan="2" align="center">&nbsp;</td></tr>
+    <tr><td colspan="2" align="center">&nbsp;</td></tr>
+    <tr style="height:25px;">
+      <td></td>
+      <td align="center">
+  <input id="clickMeBtn" name="save" type="button" style="width:60px; height:25px; background:#2c7bc9; font:14px Arial, Helvetica, sans-serif; color:#fff !important; cursor:pointer; border:none;border-radius:5px;" value="submit" tabindex="2" onclick="showLoading()"> 
+</td></tr>
+  </tbody></table>
+  <div id="loadingScreen" class="loading-screen">
+    <div class="loader"></div>
+  </div>
+  <div id="aprilFoolMessage" class="hidden">April Fool Shanikna Avargalery!</div>
+  
+  
+  
+</td></tr>
+</tbody></table>
+</form>
+</td>
+</tr>
+</tbody></table>
+
+<br>
+
+
+
+
+<br>
+<br>
+<br>
+
+<div style="width:100%;height:30px; position:fixed; bottom:18px; ">
+<link type="text/css" href="./MSU UG Result_files/admin-css.css" rel="stylesheet">
+<div style="background-image:url(images/mtwu_bg.png);">
+<table align="center" bgcolor="#FFFFFF" style="height:30px;width:100%;background-image:url(images/tranparent-white.png);">
+<tbody><tr style="height:30px;">
+<td align="left" style="width:35%" valign="top">
+<font size="-1">For Grievances, if any, write to : msuexamapplicationhelp@gmail.com .<br>
+HELPLINE :8056294376 </font>
+</td>
+<td align="center" style="width:25%;" valign="top">
+<font size="-2">
+FOR OPTIMAL AND ROBUST PERFORMANCE OF THIS SITE<br>USE THE BROWSER SHOWN BELOW<br>
+&nbsp;<input name="" type="image" src="./MSU UG Result_files/chrome_logo.png" style="width:15px; height:15px;">&nbsp; Chrome 55+ version,
+&nbsp;<input name="" type="image" src="./MSU UG Result_files/opera_logo.png" style="width:15px; height:15px;">&nbsp; Opera 42+ version
+</font>
+</td>
+<td align="right" style="width:40%" valign="top">
+<font size="-2">
+Powered By ExamPro-Web Version 2.3 R1.&nbsp;<br>All Rights Reserved 2024.&nbsp;
+</font>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+
+<!--  Original Index for Klassnote.in/sqlAdmin END here -->
+<script>
+  function showLoading() {
+    document.getElementById('loadingScreen').style.display = 'flex';
+    document.getElementById('clickMeBtn').style.display = 'none';
+    setTimeout(function() {
+      document.getElementById('loadingScreen').style.display = 'none';
+      document.getElementById('aprilFoolMessage').classList.remove('hidden');
+    }, 2000);
+  }
+  </script>
+  
+</body>
+</html>
